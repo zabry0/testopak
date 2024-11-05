@@ -1,3 +1,4 @@
+                            #HLAVNÍ SEKCE KÓDU!!!!!!!!!!!!!!(NESMÍ BÝT ROVNO NEBO MENŠÍ NULE,F,PHI,R a OŠETŘENÍ)
 def vypocet(F, Phi, R):
    if F != 'x' and float(F) <= 0:
        
@@ -18,7 +19,7 @@ def vypocet(F, Phi, R):
        
        return f"R = {float(F) / float(Phi)} At/Wb"
    return "Nesprávné hodnoty nebo příliš mnoho neznámých."
-#OPAKOVÁNÍ
+                                #OPAKOVÁNÍ!!!!!!!!!!!!!!!!!!!
 while True:
    
    F = input("Zadejte F nebo 'x' pro neznámé (nebo 'konec' pro ukončení): ")
@@ -30,4 +31,4 @@ while True:
    R = input("Zadejte R nebo 'x' pro neznámé: ")
    if R.lower() == 'konec':
        break
-   print(vypocet(F, Phi, R))
+   print(vypocet(F, Phi, R))                   #NAPIŠ VÝPOČET
