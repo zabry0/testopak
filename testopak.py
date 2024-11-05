@@ -31,4 +31,4 @@ while True:
    R = input("Zadejte R nebo 'x' pro neznámé: ")
    if R.lower() == 'konec':
        break
-   print(vypocet(F, Phi, R))                   #NAPIŠ VÝPOČET
+   print(vypocet(F, Phi, R))                   #KÓD VYPÍŠE UŽIVATELI VÝPOČET
